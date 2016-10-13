@@ -8,7 +8,7 @@ import jetbrains.buildServer.configs.kotlin.v10.Project
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.VersionedSettings.*
 import jetbrains.buildServer.configs.kotlin.v10.projectFeatures.versionedSettings
-
+//some text
 object Project : Project({
     uuid = "ceda96d4-342d-4a36-a259-38deb67d31ab"
     extId = "ManyConfigurations"
