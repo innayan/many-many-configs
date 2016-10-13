@@ -26,10 +26,10 @@ object Project : Project({
     val randValue = Random();
 
     val alphabet="abcdefghijklmnopqrstuvwxyz";
-    val words = File("dictionary.txt").readLines();
+   val words = File("dictionary.txt").readLines();
 
     fun getName(a: Int): String {
-        return words.get(randValue.nextInt(340000)) + "_" + a;
+        return words.get(randValue.nextInt(200)) + "_" + a;
     }
 
     fun addBuildTypes(project: Project, x: Int){
